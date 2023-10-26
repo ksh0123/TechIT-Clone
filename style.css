@@ -123,3 +123,9 @@ button {
   border-right: 1px solid #e0dede;
   padding-right: 35px;
 }
+
+.banner {
+  background-image: url("./images/banner.png");
+  height: 400px;
+  background-size: cover;
+}
