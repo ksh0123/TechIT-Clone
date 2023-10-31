@@ -116,6 +116,7 @@ header {
   list-style: none;
   display: flex;
   gap: 36px;
+  padding-left: 40px;
 }
 
 .header-container > div > ul > li {
@@ -186,6 +187,9 @@ header {
 .techit-school-container > ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  justify-items: center;
+  margin-top: 40px;
 }
 
 .techit-school-container > ul > li {
@@ -198,7 +202,6 @@ header {
   font-weight: 600;
   padding: 4px 8px;
   border-radius: 4px;
-  /* display: flex; */
 }
 
 .techit-school-container > ul > li > h3 {
@@ -222,6 +225,7 @@ header {
 
 ul {
   list-style: none;
+  padding: 0px;
 }
 
 .header-container > div > ul {
