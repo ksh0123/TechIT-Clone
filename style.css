@@ -70,20 +70,30 @@
     format("woff");
 }
 
-header {
-  border-bottom: 1px solid #e5e5e5;
-}
-
 body {
   font-family: Pretendard;
   color: #222222;
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 400;
+}
+
 button {
-  background: transparent;
+  background-color: transparent;
   padding: 0;
   border: 0;
+}
+
+header {
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .header-container {
@@ -119,29 +129,13 @@ button {
   color: #737373;
 }
 
-.bar {
-  border-right: 1px solid #e0dede;
-  padding-right: 35px;
-}
-
 .banner {
   background-image: url("./images/banner.png");
   height: 400px;
   background-size: cover;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  font-weight: 400;
-}
-
 .banner-container {
-  background-color: aqua;
   height: 100%;
   max-width: 1280px;
   margin: auto;
@@ -158,4 +152,33 @@ h6 {
 .banner-container > h5 {
   margin-top: 16px;
   font-size: 18px;
+}
+
+.techit-school-container {
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.techit-school-container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.techit-school-container > div > div > h5 {
+  color: #e67800;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.techit-school-container > div > div > h3 {
+  margin-top: 8px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.techit-school-container > div > button {
+  font-size: 14px;
+  font-weight: 600;
 }
